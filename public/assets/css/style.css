@@ -948,6 +948,12 @@ blockquote {
   letter-spacing: 2px;
 }
 
+.font-alt-no-transform {
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
 .font-serif {
   font-family: Volkhov, "Times New Roman", sans-serif;
   font-style: italic;
@@ -1407,6 +1413,10 @@ Hero Slider
 /*--------------------------------------------------------------
 	Services & Features
 --------------------------------------------------------------*/
+#features {
+  background-color: #f8f8f8;
+}
+
 .features-item {
   margin: 20px 0;
   text-align: center;
@@ -1489,6 +1499,24 @@ Hero Slider
   width: 100%;
 }
 
+.team-container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.team-container-light {
+  background: #7c4fc9;
+  padding: 20px;
+}
+
+.team-container-dark {
+  background: #031326;
+  padding: 20px;
+}
+
 .team-image:after {
   position: absolute;
   background: transparent;
@@ -1542,7 +1570,7 @@ Hero Slider
 
 .team-name {
   font-size: 14px;
-  color: #111;
+  color: #fff;
 }
 
 .team-role {
