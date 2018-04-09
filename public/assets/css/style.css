@@ -901,6 +901,10 @@ a {
   color: #111;
 }
 
+.wallet-icons-big {
+  font-size: 120px;
+}
+
 a:hover, a:focus {
   text-decoration: none;
   color: #aaa;
@@ -1894,6 +1898,10 @@ Hero Slider
 @media (max-width: 769px) {
   .team-social {
     font-size: 25px;
+  }
+
+  .liz-caption img.caption-logo {
+    height: auto;
   }
 }
 
