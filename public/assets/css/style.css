@@ -1426,6 +1426,10 @@ Hero Slider
   text-align: center;
 }
 
+.features-item:hover .features-icon{
+  color: rgba(66, 26, 107, 0.9);
+}
+
 .features-icon,
 .alt-features-icon {
   line-height: 1.2;
@@ -1582,8 +1586,12 @@ Hero Slider
   color: #aaa;
 }
 
-.team-item:hover .team-image:after {
-  background: rgba(0, 0, 0, 0.6);
+.team-container-dark .team-item:hover .team-image:after {
+  background: rgba(66, 26, 107, 0.6);
+}
+
+.team-container-light .team-item:hover .team-image:after {
+  background: rgba(3, 19, 38, 0.6);
 }
 
 .team-item:hover .team-detail {
