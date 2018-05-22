@@ -1521,12 +1521,12 @@ Hero Slider
 
 .team-container-light {
   background: #7c4fc9;
-  padding: 20px;
+  padding: 50px;
 }
 
 .team-container-dark {
   background: #031326;
-  padding: 20px;
+  padding: 50px;
 }
 
 .team-image:after {
